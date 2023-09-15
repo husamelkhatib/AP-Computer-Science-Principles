@@ -1,7 +1,7 @@
 using System;
 
-
-
+class prog54c {
+public static void Main (string[] args) {
    
     double pi = 3.14159;
 
@@ -15,3 +15,5 @@ using System;
     Console.WriteLine("The radius is: " + roundedrad);
     Console.WriteLine("The area is: " + roundedarea);
     Console.WriteLine("The circumference is: " + roundedcirc);
+  }
+  }

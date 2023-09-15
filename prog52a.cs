@@ -1,6 +1,6 @@
 using System;
 
-class Program {
+class prog52a {
   public static void Main (string[] args) {
     Console.WriteLine("What is the length?");
     
@@ -15,3 +15,7 @@ class Program {
     Console.WriteLine("Perimeter: " + perim);
   }
 }
+//dotnet tool install -g dotnet-script
+//export PATH="$PATH:/home/runner/.dotnet/tools"
+//export DOTNET_ROOT=$(dirname $(readlink -f $(which dotnet)))
+//dotnet script prog52a.cs

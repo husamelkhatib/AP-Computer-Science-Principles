@@ -1,7 +1,7 @@
 using System;
 
-class Program {
-  static void Main() {
+class prog54b {
+  public static void Main (string[] args) {
 
         Console.WriteLine("Enter your first 3 digit number");
     int num1 = Convert.ToInt32(Console.ReadLine());
