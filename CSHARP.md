@@ -77,7 +77,8 @@ To compile a C# program, you need access to the C# compiler, which is part of th
    Use the cd command to navigate to the directory where your C# source file (with a .cs extension) is located.
 3. ### Compile the Program:
    Run the following command to compile your program:
-  ```csc YourProgram.cs
+  ```
+  csc YourProgram.cs
   
   ```
     Replace `YourProgram.cs` with the name of your C# source file. This command uses the C# compiler (`csc`) to generate an executable file.
