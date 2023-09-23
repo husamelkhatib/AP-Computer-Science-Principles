@@ -81,7 +81,8 @@ To compile a C# program, you need access to the C# compiler, which is part of th
   csc YourProgram.cs
   
   ```
-    Replace `YourProgram.cs` with the name of your C# source file. This command uses the C# compiler (`csc`) to generate an executable file.
+  Replace `YourProgram.cs` with the name of your C# source file. This command uses the C# compiler (`csc`) to generate an executable file.
+    
 4. ### Run the Program:
    After successful compilation, you will see an executable file named `YourProgram.exe` in the same directory. You can run your program using the following command:
   ```
