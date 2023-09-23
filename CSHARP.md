@@ -91,7 +91,34 @@ To compile a C# program, you need access to the C# compiler, which is part of th
   ```
   Replace `YourProgram.exe` with the name of your executable file.
 
+## 1.2 Understanding Compilation Errors
 
+During compilation, the C# compiler checks your code for syntax errors and other issues. If any errors are found, they will be displayed in the command prompt, along with information about the location of the error in your code. It is essential to review and fix these errors before running your program.
+
+## 1.3 Running a C# Program
+
+Once your program is successfully compiled, you can execute it by running the generated executable file. When you run your program, it starts executing from the Main method, which serves as the entry point.
+
+Here's a simple example of a C# program:
+```
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, C#!");
+    }
+}
+
+```
+After compiling this program, you can run it to see the output.
+
+## 1.4 IDEs (Integrated Development Environments)
+
+While using the command line for compilation and execution is a fundamental approach, many developers prefer using integrated development environments (IDEs) such as Visual Studio, Visual Studio Code, or JetBrains Rider. These IDEs offer powerful features for C# development, including code editing, debugging, and project management.
+
+In summary, understanding how to compile and run C# programs from the command line is essential for basic development. As you progress in your C# journey, you may explore the features of IDEs to enhance your development experience.
 
 
 
