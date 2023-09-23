@@ -130,8 +130,8 @@ Data types in C# are essential for defining the kind of data that variables can 
 
 ## 2.1 Common Data Types
 
-### 2.1.1 'int':Integer
-The 'int' data type is used to store signed 32-bit integer values. It can represent both positive and negative whole numbers.
+### 2.1.1 `int`: Integer
+The `int` data type is used to store signed 32-bit integer values. It can represent both positive and negative whole numbers.
 
 Example:
 ```
@@ -139,15 +139,74 @@ int age = 25;
 
 ```
 ### 2.1.2 `double`: Double-Precision Floating-Point
-The 'double' data type is used to store double-precision floating-point numbers, which are decimal numbers with high precision.
+The `double` data type is used to store double-precision floating-point numbers, which are decimal numbers with high precision.
 
 Example:
 ```
 double pi = 3.14159265359;
 
 ```
+### 2.1.3 `string`: String
+The `string` data type is used to store sequences of characters, such as text. Strings are enclosed in double quotes.
 
-___
+Example:
+```
+string greeting = "Hello, World!";
+
+```
+### 2.1.4 `bool`: Boolean
+The `bool` data type represents Boolean values, which can be either `true` or `false`. Booleans are used for logical operations and conditional statements.
+
+Example:
+```
+bool isRaining = true;
+
+```
+### 2.1.5 `char`: Character
+The `char` data type is used to store a single Unicode character. Characters are enclosed in single quotes.
+
+Example:
+```
+char grade = 'A';
+
+```
+### 2.1.6 `decimal`: Decimal
+The `decimal` data type is used to store decimal numbers with high precision. It is often used in financial calculations where accuracy is crucial.
+
+Example:
+```
+decimal price = 19.99m;
+
+```
+### 2.1.7 `byte`: Byte
+The `byte` data type is used to store unsigned 8-bit integer values, ranging from 0 to 255.
+
+Example:
+```
+byte redValue = 255;
+
+```
+## 2.2 Declaring Variables
+To declare a variable, you specify the data type followed by the variable name. Variables can hold data of the declared type.
+
+Example:
+```
+int numberOfApples;
+string playerName;
+double temperature;
+
+```
+## 2.3 Type Inference (`var` Keyword)
+C# allows type inference using the `var` keyword. The compiler determines the data type based on the assigned value.
+
+Example:
+```
+var itemCount = 10; // Compiler infers that itemCount is of type int
+
+```
+## 2.4 Summary
+Understanding and choosing the appropriate data types is essential for efficient and error-free C# programming. C# provides a range of data types to accommodate various types of data, from integers and floating-point numbers to text and Boolean values.
+
 
 
 
