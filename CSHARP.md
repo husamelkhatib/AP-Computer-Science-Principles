@@ -1,8 +1,8 @@
-<h1>Handbook on Programming in ?????</h1>
+<h1>Handbook on Programming in C# </h1>
 
 **AP Computer Science Principles 2023-2024**
 
-FirstName LastName
+Husam El-Khatib
 
 <!-- This is a comment (which will not be displayed in the live file);
 replace all "???" with your own text. -->
@@ -65,13 +65,30 @@ ___
 
 # 1. Compiling and Running
 
-???
+Compiling and running a C# program involves several steps that allow you to change your source code into an executable application.  In this section, I will go through the process of compiling and running C# programs.
+
+## 1.1 Compiling a C# Program
+
+To compile a C# program, you need access to the C# compiler, which is part of the .NET Framework.  Here's how you can compile a C# program using the command line:
+
+1. ### Open a Command Prompt or Terminal:
+   Depending on your operating system, open a command prompt or terminal window.
+2. ### Navigate to the Program Directory:
+   Use the cd command to navigate to the directory where your C# source file (with a .cs extension) is located.
+3. ### Compile the Program:
+   Run the following command to compile your program:
+  ```csc YourProgram.cs
+  
+  ```
+    Replace `YourProgram.cs` with the name of your C# source file. This command uses the C# compiler (`csc`) to generate an executable file.
+4. ### Run the Program:
+   After successful compilation, you will see an executable file named `YourProgram.exe` in the same directory. You can run your program using the following command:
+  ```YourProgram.exe
+
+  ```
+  Replace `YourProgram.exe` with the name of your executable file.
 
 
-
-
-
-___
 
 
 
