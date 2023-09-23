@@ -126,15 +126,26 @@ In summary, understanding how to compile and run C# programs from the command li
 
 # 2. Data Types
 
-???
+Data types in C# are essential for defining the kind of data that variables can hold. C# provides a rich set of built-in data types, each designed to store specific types of information. Understanding data types is fundamental to writing C# programs effectively.
 
-```LANGUAGE_HERE
+## 2.1 Common Data Types
+
+### 2.1.1 'int':Integer
+The 'int' data type is used to store signed 32-bit integer values. It can represent both positive and negative whole numbers.
+
+Example:
+```
+int age = 25;
 
 ```
+### 2.1.2 `double`: Double-Precision Floating-Point
+The 'double' data type is used to store double-precision floating-point numbers, which are decimal numbers with high precision.
 
+Example:
+```
+double pi = 3.14159265359;
 
-
-
+```
 
 ___
 
