@@ -77,7 +77,7 @@ To compile a C# program, you need access to the C# compiler, which is part of th
    Use the cd command to navigate to the directory where your C# source file (with a .cs extension) is located.
 3. ### Compile the Program:
    Run the following command to compile your program:
-  ```
+  ```cs
   csc YourProgram.cs
   
   ```
@@ -85,7 +85,7 @@ To compile a C# program, you need access to the C# compiler, which is part of th
     
 4. ### Run the Program:
    After successful compilation, you will see an executable file named `YourProgram.exe` in the same directory. You can run your program using the following command:
-  ```
+  ```cs
   YourProgram.exe
 
   ```
@@ -100,7 +100,7 @@ During compilation, the C# compiler checks your code for syntax errors and other
 Once your program is successfully compiled, you can execute it by running the generated executable file. When you run your program, it starts executing from the Main method, which serves as the entry point.
 
 Here's a simple example of a C# program:
-```
+```cs
 using System;
 
 class Program
@@ -134,7 +134,7 @@ Data types in C# are essential for defining the kind of data that variables can 
 The `int` data type is used to store signed 32-bit integer values. It can represent both positive and negative whole numbers.
 
 Example:
-```
+```cs
 int age = 25;
 
 ```
@@ -142,7 +142,7 @@ int age = 25;
 The `double` data type is used to store double-precision floating-point numbers, which are decimal numbers with high precision.
 
 Example:
-```
+```cs
 double pi = 3.14159265359;
 
 ```
@@ -150,7 +150,7 @@ double pi = 3.14159265359;
 The `string` data type is used to store sequences of characters, such as text. Strings are enclosed in double quotes.
 
 Example:
-```
+```cs
 string greeting = "Hello, World!";
 
 ```
@@ -158,7 +158,7 @@ string greeting = "Hello, World!";
 The `bool` data type represents Boolean values, which can be either `true` or `false`. Booleans are used for logical operations and conditional statements.
 
 Example:
-```
+```cs
 bool isRaining = true;
 
 ```
@@ -166,7 +166,7 @@ bool isRaining = true;
 The `char` data type is used to store a single Unicode character. Characters are enclosed in single quotes.
 
 Example:
-```
+```cs
 char grade = 'A';
 
 ```
@@ -174,7 +174,7 @@ char grade = 'A';
 The `decimal` data type is used to store decimal numbers with high precision. It is often used in financial calculations where accuracy is crucial.
 
 Example:
-```
+```cs
 decimal price = 19.99m;
 
 ```
@@ -182,7 +182,7 @@ decimal price = 19.99m;
 The `byte` data type is used to store unsigned 8-bit integer values, ranging from 0 to 255.
 
 Example:
-```
+```cs
 byte redValue = 255;
 
 ```
@@ -190,7 +190,7 @@ byte redValue = 255;
 To declare a variable, you specify the data type followed by the variable name. Variables can hold data of the declared type.
 
 Example:
-```
+```cs
 int numberOfApples;
 string playerName;
 double temperature;
@@ -200,7 +200,7 @@ double temperature;
 C# allows type inference using the `var` keyword. The compiler determines the data type based on the assigned value.
 
 Example:
-```
+```cs
 var itemCount = 10; // Compiler infers that itemCount is of type int
 
 ```
