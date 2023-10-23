@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/AP-Computer-Science-Principles/main.csproj": {}
+    "/workspaces/AP-Computer-Science-Principles/main.csproj": {}
   },
   "projects": {
-    "/home/runner/AP-Computer-Science-Principles/main.csproj": {
+    "/workspaces/AP-Computer-Science-Principles/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/AP-Computer-Science-Principles/main.csproj",
+        "projectUniqueName": "/workspaces/AP-Computer-Science-Principles/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/AP-Computer-Science-Principles/main.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/AP-Computer-Science-Principles/obj/",
+        "projectPath": "/workspaces/AP-Computer-Science-Principles/main.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/AP-Computer-Science-Principles/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp6.0"
@@ -48,12 +48,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/4axlc21msjr9g181l2y6hxsmm4jar8i7-dotnet-sdk-6.0.403/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

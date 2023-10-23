@@ -20,3 +20,4 @@ class prog130a {
     Console.WriteLine("The process took " + steps + " steps to reach 1");
   }
 }
+

@@ -1,6 +1,5 @@
 using System;
-class Prog122h {
-    public static void Main (String[] args) {
+
 
         int lcv = 1;
         int square;
@@ -20,5 +19,6 @@ class Prog122h {
 
             lcv+=1;
         }
-    }
-}
+    
+
+

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zEvn3X9lf6espFE4uLMRrFlEgS78lRTdSL/deqJn/zkxAduh0q+Axpxx8D45TrsPf1IkVurY7jithQSVuJuxZg==",
+  "dgSpecHash": "LQ5VBWoQpnzRGAyGJZqz2gd+gCBeFMbEdxm4BfLkc1Bpk1SQJGrcIqnyf/NnTcsw+3/WqzCDWOhD7b88W4iuDA==",
   "success": true,
-  "projectFilePath": "/home/runner/AP-Computer-Science-Principles/main.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/workspaces/AP-Computer-Science-Principles/main.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/6.0.20/microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.20/microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.20/microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -28,3 +28,11 @@
 /home/runner/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.pdb
 /home/runner/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.genruntimeconfig.cache
 /home/runner/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/ref/main.dll
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.csproj.AssemblyReference.cache
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.AssemblyInfoInputs.cache
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.AssemblyInfo.cs
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.csproj.CoreCompileInputs.cache
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.dll
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/refint/main.dll
+/workspaces/AP-Computer-Science-Principles/obj/Debug/netcoreapp6.0/main.pdb
